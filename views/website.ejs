@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Newsfeed</title>
+    <link rel="stylesheet" href="css/styling.css" />
+</head>
+
+<body>
+  <div>
+    <h1 class = "title">The latest news from Di.se</h1>
+    <div>
+        <%latestTen.forEach((item) => {%>
+          <div>
+            <span class="date"><%= item.pubDate %></span>
+            <a class = "link" href = <%= item.link %>><%= item.title %></a>
+          </div>
+        <% }); %>
+        </div>
+  </div>
+
+</body>
+</html>

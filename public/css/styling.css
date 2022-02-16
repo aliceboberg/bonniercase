@@ -1,0 +1,25 @@
+body {
+    background-color: #f7eae4;
+}
+
+.title {
+    background-color: #a7100c;
+    font-family: BentonSans,sans-serif;
+    font-style: bold;
+    size: 150;
+    color: white
+}
+
+.link{
+    font-family: BentonSans,sans-serif;
+    color: black;
+    font-size: large;
+    line-height: 1.5;
+}
+
+.date{
+    font-family: BentonSans,sans-serif;
+    color: grey;
+    font-size: large;
+
+}
